@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tela de Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Cadastro</h2>
+        <form method="post" action="cadastro.php">
+            <div class="form-group">
+                <label for="name">Nome Completo:</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="CPF">CPF</label>
+                <input type="CPF" name="CPF" id="CPF" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="Celular">Celular</label>
+                <input type="celular" name="celular" id="celular" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Senha:</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Cadastrar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
